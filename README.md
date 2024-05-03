@@ -14,9 +14,9 @@ A robust data management and governance capability is crucial for leveraging AI 
 
 Data strategy is essential to successfully industrialize AI, bringing together People, Process and Platform to harness data's full potential for innovation and growth, not as a byproduct of, but instead, the driving force for innovation and growth.   
 
-# The Three P's
+## The Three P's
 
-## People
+### People
 The People component of our Data Strategy is centered on cultivating a culture where data and AI are more than mere tools—they are at the heart of our organizational identity and operations. This initiative is about valuing data, embracing AI, and committing to ongoing learning and evolution. An intelligence-driven culture integrates data and AI into the core of its operations, treasures data as a precious resource, and advocates for its broad accessibility and active use in decision-making. It also involves the incorporation of AI into various workflows, utilizing AI to streamline repetitive tasks, amplify human capabilities, and derive meaningful insights.
 
 This culture is defined by its focus on a data-centric methodology, which prioritizes the gathering, analysis, and application of data. It ensures that data is not only valued but also easily accessible to everyone within the organization, which is essential for making well-informed decisions. By embedding data-driven insights into the decision-making process, an organization can nurture a culture that is authentically intelligence-driven.
@@ -27,7 +27,7 @@ This culture is defined by its focus on a data-centric methodology, which priori
 - **Foster Learning**: allow the team to learn and grow.
 - **Lead**: practice what you preach. Lead with data driven decisions. Let others emulate.
 
-## Process
+### Process
 The Process aspect of our Data Strategy should aim for a central governance of data while allowing for federated elements to maintain business and AI agility. The design should strive to eliminate any obstacles in data lifecycle management and facilitate proper data access. Key processes to consider include:
 - **Data product registration**: an automated process to register and catalog estate data products.
 - **Data Quality**: administer and remediate data quality issues at source or as far left as possible.
@@ -41,7 +41,7 @@ The Process aspect of our Data Strategy should aim for a central governance of d
 
 Together, these processes form the backbone of an intelligence-driven culture where data and AI are woven into the operational fabric of the organization, propelling business outcomes forward.
 
-## Platform
+### Platform
 The Platform pillar of a successful Data Strategy should prioritize scalability and the provisioning of shared enterprise services that support self-service automation. This requires a robust technology solution that integrates a data analytics platform with Machine Learning and AI. 
 
 A fundamental quality of this pillar is flexibility, particularly in terms of interoperability with various data sources and connectors. This allows for easy integration with a wide array of data systems, both common and bespoke. It's essential that the platform enables data visualization, discovery, and business intelligence, and is compatible with DevOps and associated automation processes. 
@@ -51,11 +51,11 @@ The platform should scale with the growth of the organization and workloads, man
 This particular solution, based in Azure and leveraging Databricks for compute allows for data agnostic ingestion, has a Power App to collect and add the parameters into a control table, and follows a single data landing zone topology but can be leveraged and automated further to create additional domains. 
 It also provides a deployment 'feature flag' concept to allow this platform to deploy into a greenfield environment, or to co-exisit with other, pre-existing componentry in the Azure tenant.The platform deployment script in this repo allows ancillary components like Azure OpenAI, Azure AI search, Azure Machine Learning, and many other components to be selected and deployed later, fully integrating into the infrastructure with automated configuration. The ability to create and deploy into a Vnet is also within this code base.
 
-# What are the concepts around a sound, modern data strategy across a data estate? 
+## What are the concepts around a sound, modern data strategy across a data estate? 
 This section will explore the main elements of the three essential pillars of Data Strategy: People, Process, and Platform. The goal is to provide some insights on how to develop organizational capacity with Data and AI. These elements are Data Acumen, Data Governance and Operations, Federated Compute, Shared Services, Data Services and Enterprise Services.
 ![Data Strategy conceptual architecture showing governance across the entire data estate](images\conceptual.png)
 
-## Data Acumen - People
+### Data Acumen - People
 Data acumen is a crucial skill set for any organization aspiring to leverage Artificial Intelligence for business growth and innovation. It is the collective proficiency in understanding and applying data-related concepts and skills, spanning from foundational knowledge to domain-specific insights. 
 
 Developing a robust data acumen within an organization involves multiple facets, each contributing to the overall capacity to harness data effectively. It's not just about understanding the technical aspects of data management; it's about how data can influence business decisions and drive organizational growth. 
@@ -76,7 +76,7 @@ Building data acumen within an organization requires a strategic and comprehensi
 
 - As AI becomes more prevalent, it's important to understand its ethical implications. Embed Responsible AI, considering factors like fairness, transparency, and bias.
 
-## Data Governance and Operations - Process
+### Data Governance and Operations - Process
 The way an organization handles the data it uses, in terms of its availability, usability, integrity, and security, is the domain of data governance and operations. This involves setting up standards, policies, and processes to ensure data is managed in a consistent, secure, and compliant way.
 
 A key element of a data strategy that focuses on AI is to adopt a data product mindset. A "data product" is a reliable, reusable data asset that is registered and cataloged. This means defining clear roles such as data product owners (Data Publishers), data owning teams (Data Producers), and data consumers. By treating data as a product, businesses can concentrate on high-value business use cases, package data for easy understanding and use, reduce clutter and compliance and user access risks, control data spread and costs, and maintain trust with stakeholders.
@@ -90,7 +90,7 @@ To establish a strong data governance and operations capability, the following k
 - A searchable repository (**Data Catalog**) of data assets makes it easier to find and understand data. These tools typically provide metadata, usage information, and data samples. 
 - Tools to manage the flow of data through its lifecycle (**Data Lifecycle (DLM)**), from creation and initial storage to obsolescence and deletion. These tools provide features like data classification, retention, archiving, and deletion.
 
-## Data Sources - Platform
+### Data Sources - Platform
 Data Sources are the enterprise locations where business and transactional information is stored. These sources, whether they are on-premises or in the cloud, offer different kinds of data , which can be used for Analytics and AI applications. Data Sources can have different formats such as Data Lakes, Data Warehouses, Data Marts, Lake Houses or File Shares, each with different capabilities for data storage and processing. Data sources may also be accessed through REST API (often used for SaaS applications), or through message-oriented sources (such as Message Queues or Publish-Subscribe Systems) for near/real-time data streaming applications. 
 Some key Data Source considerations when setting up or updating a data platform to support an AI-driven data strategy are listed below:
 
@@ -101,7 +101,7 @@ Some key Data Source considerations when setting up or updating a data platform 
 1. Especially for AI applications, having real-time or near-real-time data can be important. This requires data sources that offer real-time data streaming capabilities. 
 1. The cost of data acquisition, storage, and processing should match the value it brings to the business.
 
-## Shared Services - Platform
+### Shared Services - Platform
 In a data platform context, shared services are central data estate services that support the creation, deployment, and management of data and applications. They help organizations to streamline data management processes, reduce redundancies, and enable efficient and effective data use by centralizing common tasks and services based on data best practices and methods. 
 The following are the key Shared Services that should be taken into account when creating or updating a data platform:
 
