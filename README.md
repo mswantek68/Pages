@@ -138,17 +138,19 @@ As we progress through this transformative period, it's crucial to recognize tha
 # Logical architecture for a modern data platform
 ![Data Strategy functional architecture showing governance across the entire data estate](images\DSPAArchitecture.png)
 
-
 # How to leverage this repository effectively
-
 ## Start with Business Outcomes and Use Cases
 - Start with well-defined business problem and then identify the AI use cases that will solution the problem and measure their impact. Use Objectives and Key Results (OKRs) to define the vision, success factors, and stakeholders for each use case. Assess the current and desired data estate and identify the people, process, and platform capabilities needed to enable the use cases. This shows the gaps and opportunities to develop a roadmap for the capability plan that supports the company's strategy.
+
 ## Don't start from scratch
 - Use a data strategy framework (like this [one](Delivery/)) to guide the data capabilities design. Focus on the use case-specific needs rather than generic solutions to avoid scope and cost mismatches. For example, address data quality issues within the use case context rather than broadly.
+
 ## Establish a data strategy working group
 - Create and foster the growth of a **data strategy working group** to coordinate data activities across the organization. This group should include experts, stakeholders, and representatives from relevant business units and teams who work together and have clear responsibilities and outcomes along with SLT accountabilty.
+
 ## Leverage your team and help others grow
 - Instead of a data Center of Excellence (COE), create a center of enablement. Learn from each use case and apply the lessons to the next one. Leverage the data engineering and data stewards you currently have to help teach others and replicate.
+
 ## This will take time
 A data strategy needs to be a gradual and flexible journey that prioritizes outcomes over perfection, and aligns people, process and platforms to unleash the power of data for innovation and growth.
 
