@@ -152,7 +152,7 @@ As we progress through this transformative period, it's crucial to recognize tha
 - Instead of a data Center of Excellence (COE), create a center of enablement. Learn from each use case and apply the lessons to the next one. Leverage the data engineering and data stewards you currently have to help teach others and replicate.
 
 ## This will take time
-A data strategy needs to be a gradual and flexible journey that prioritizes outcomes over perfection, and aligns people, process and platforms to unleash the power of data for innovation and growth.
+- A data strategy needs to be a gradual and flexible journey that prioritizes outcomes over perfection, and aligns people, process and platforms to unleash the power of data for innovation and growth.
 
 # Data Strategy Delivery IP
 Part of the Data Strategy approach recognizes that the creation of delivery accelerators can assist teams in jumpstarting the installation and configuration of Azure artifacts, but also enabling a consistent approach to be adopted during installation of Microsoft Azure components. This code base acts as an 'accelerator' for deploying and configuring key Azure services that are used to produce the overall reference architecture for the Data Strategy offering. 
@@ -161,7 +161,6 @@ Part of the Data Strategy approach recognizes that the creation of delivery acce
 - [Click Here to Navigate to Product Backlog with Epics, Features, and User Stories](DataStrategyBacklog.xlsx)
 
 # Steps to Deploy IP
-- [Click Here to Navigate to Deployment Instructions](Delivery/README.md)
 - [Click Here to Navigate to Deployment Instructions](Delivery/README.md)
 
 # Components
@@ -175,24 +174,8 @@ The Data Strategy IP consists of the following components:
 | Full deployment instructions |  This documentation library contains architecture patterns, documentation, and usage scenarios including sample ingestion patterns |
 
 
-## Focus Areas
-The primary focus areas for the Delivery IP are intended to realise components described in the Azure based Data Strategy offering. These are detailed below.
-
-| Focus Area | Description |
-|--|--|
-| <img src="images/azure-datalake.png" width="200" /> | Single, Centralized storage of assets. |
-| <img src="images/control-file-service.png" width="200" /> |Meta-data driven service to assist with data ingestion scenarios |
-| <img src="images/ingestion-for-compute-service.png" width="200" /> | Provision of compute services  with integration with Data Lake |
-| <img src="images/data-catalog-service.png" width="200" /> | Installation and configuration of Microsoft Purview through provisioning and configuration | 
-| <img src="images/self-service-ingestion.png" width="200" /> | Implementation of a self-service data ingestion process |
-
-
-# Data Strategy Reference Architecture
-![Data Strategy functional architecture showing governance across the entire data estate](images\DSPAArchitecture.png)
-
-
 # Please Read
-This code is intended to assist with delivery of a foundational platform for data strategy. It is possible that not all components will be relevant to every customer - this will need to be discovered and assessed during Data & AI Strategy Workshops stage to understand the Customer's current technical landscape and assess the maturity of the data estate. Also, the reference backlog may need amending to include customer-specific items in addition to those detailed in the base implementation.
+This code is intended to assist with delivery of a foundational platform for data strategy. It is possible that not all components will be relevant to every customer - this will need to be discovered and assessed during the Data & AI Strategy Workshops stage to understand the customer's current technical landscape and assess the maturity of the data estate. Also, the reference backlog may need amending to include customer-specific items in addition to those detailed in the base implementation.
 
 # Contributing
 This project welcomes contributions and suggestions.  Most contributions require you to agree to a
