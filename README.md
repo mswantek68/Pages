@@ -90,7 +90,7 @@ To establish a strong data governance and operations capability, the following k
 - A searchable repository (**Data Catalog**) of data assets makes it easier to find and understand data. These tools typically provide metadata, usage information, and data samples. 
 - Tools to manage the flow of data through its lifecycle (**Data Lifecycle (DLM)**), from creation and initial storage to obsolescence and deletion. These tools provide features like data classification, retention, archiving, and deletion.
 
-## Data Sources
+## Data Sources - Platform
 Data Sources are the enterprise locations where business and transactional information is stored. These sources, whether they are on-premises or in the cloud, offer different kinds of data , which can be used for Analytics and AI applications. Data Sources can have different formats such as Data Lakes, Data Warehouses, Data Marts, Lake Houses or File Shares, each with different capabilities for data storage and processing. Data sources may also be accessed through REST API (often used for SaaS applications), or through message-oriented sources (such as Message Queues or Publish-Subscribe Systems) for near/real-time data streaming applications. 
 Some key Data Source considerations when setting up or updating a data platform to support an AI-driven data strategy are listed below:
 
@@ -100,8 +100,6 @@ Some key Data Source considerations when setting up or updating a data platform 
 1. Data sources should be able to scale to handle expected load. This requires aspects such as storage capacity, processing power, and network bandwidth. 
 1. Especially for AI applications, having real-time or near-real-time data can be important. This requires data sources that offer real-time data streaming capabilities. 
 1. The cost of data acquisition, storage, and processing should match the value it brings to the business.
-
-
 
 ## Shared Services - Platform
 In a data platform context, shared services are central data estate services that support the creation, deployment, and management of data and applications. They help organizations to streamline data management processes, reduce redundancies, and enable efficient and effective data use by centralizing common tasks and services based on data best practices and methods. 
@@ -116,7 +114,7 @@ Enterprise data models to provide high-level representations of an organization'
 ### Enterprise Services - Platform
 Enterprise Services the operations and infrastructure within any organization aiming to leverage data for AI-based innovation and growth. These services include DevOps, a practice that combines development and operations to shorten the system development life cycle and provide continuous delivery with high software quality. CI/CD/CT, or Continuous Integration, Continuous Delivery, and Continuous Testing, which are practices designed to improve and expedite the software delivery process. Identity Services, which ensure secure and efficient user access management across the organization. Operational Monitoring and Logging, to oversee system performance, identify issues, and maintain a comprehensive record of system activities for troubleshooting and analysis. Security Services, to protect sensitive information and systems from cyber threats, ensuring data integrity and availability. Enterprise Services underpin not only the Data Platform, but also other technical platforms within an enterprise, they are fundamentally important for data-driven innovation. 
 
-## Federated Compute
+## Federated Compute - Platform
 Federated Compute is a way of performing computation that allows data to stay and be processed where it is, instead of moving it to a central location. This is different from the traditional way of moving data to where it can be computed. We call this the separation of data from compute. This is useful for big data applications, like Machine Learning and Analytics, where moving data can be costly and time-consuming. Data APIs make this possible, by acting as links between different data sources and computing nodes, so that data can be accessed, processed, and used across different systems and locations.
 
 To build or modernize a data platform with Federated Compute, there are some key things to think about:
